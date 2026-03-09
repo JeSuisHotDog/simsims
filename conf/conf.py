@@ -12,7 +12,7 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../src/simsims'))
+sys.path.insert(0, os.path.abspath('../src'))
 
 
 # -- Project information -----------------------------------------------------
@@ -30,7 +30,6 @@ author = 'Daniel Ojog'
 extensions = [ 'sphinx.ext.autodoc',
                'sphinx.ext.doctest',
                'sphinx.ext.intersphinx',
-               'sphinx_immaterial',
               ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -49,9 +48,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 html_theme = "classic"
 
-html_theme_options = {
-    "features": ["toc.follow"],
-}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

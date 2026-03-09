@@ -1,5 +1,5 @@
 API Documentation
 =================
 
-.. automodule:: simsims
+.. automodule:: simsims.simsims_lib
    :members:
