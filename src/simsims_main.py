@@ -3,7 +3,7 @@ from simsims.simsims_lib import *
 
 def main():
     """Set up and run the SimSims Petri net simulation."""
-    #global next_worker_id, next_food_id, next_product_id
+    # global next_worker_id, next_food_id, next_product_id
     next_worker_id = 1
     next_food_id = 1
     next_product_id = 1
@@ -76,5 +76,4 @@ def main():
 
 
 if __name__ == "__main__":
-   main()
-
+    main()

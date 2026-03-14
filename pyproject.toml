@@ -1,0 +1,13 @@
+[project]
+name = "simsims"
+version = "0.1.0"
+description = "Petri net"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib",
+    "openpyxl"
+]
+
+[project.scripts]
+my-app = "src.simsims_main:main"
